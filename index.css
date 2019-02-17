@@ -1,0 +1,83 @@
+    /* Style for our header texts
+	* --------------------------------------- */
+    html {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+    }
+
+    .up-title {
+        font-size: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        color: #fcfdff;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-70%, -50%);
+    }
+
+    .title {
+        font-size: 10rem;
+        font-family: 'Playfair Display', serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .bottom-title {
+        font-size: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        color: #fcfdff;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-90%, -50%);
+    }
+
+    #pp-nav li,
+    .pp-slidesNav li {
+        margin: 15px;
+    }
+
+
+    /* Centered texts in each section
+	* --------------------------------------- */
+    .section {
+        text-align: center;
+    }
+
+    /* Backgrounds will cover all the section
+	* --------------------------------------- */
+    #section1,
+    #section2,
+    #section3,
+    #section4 {
+        background-size: cover;
+    }
+
+    /* Defining each section background and styles
+	* --------------------------------------- */
+    #section1 {
+        background-image: url(imgs/bg1.jpg);
+    }
+
+    #section2 {
+        background-image: url(imgs/bg2.jpg);
+    }
+
+    #section3 {
+        background-image: url(imgs/bg3.jpg);
+    }
+
+    #section4 {
+        background-image: url(imgs/bg4.jpg);
+    }
+
+    #infoMenu li a {
+        color: #fff;
+    }
